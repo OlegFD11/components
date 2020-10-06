@@ -1,0 +1,107 @@
+// font-family
+
+$DMSans-Bold: "DMSans-Bold";
+$DMSans-BoldItalic: "DMSans-BoldItalic";
+$DMSans-Italic: "DMSans-Italic";
+$DMSans-Medium: "DMSans-Medium";
+$DMSans-MediumItalic: "DMSans-MediumItalic";
+$DMSans-Regular: "DMSans-Regular";
+
+// typography
+
+.extra-large {
+  font-family: $DMSans-Medium;
+  font-size: 3rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4rem;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.Sober-house-location {
+  font-family: DMSans;
+  font-size: 2rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.4rem;
+  letter-spacing: normal;
+  color: #0e2b46;
+}
+
+.Advantages {
+  font-family: $DMSans-Medium;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0e2b46;
+}
+
+.Maverick-House {
+  font-family: $DMSans-Medium;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.infoamericasoberco {
+  width: 205px;
+  height: 24px;
+  font-family: $DMSans-Regular;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.Select-location {
+  font-family: $DMSans-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.-Chelsea-Street-E {
+  width: 347px;
+  height: 24px;
+  font-family: $DMSans-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+label {
+  width: 176px;
+  height: 12px;
+  opacity: 0.6;
+  font-family: $DMSans-Regular;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #171a1f;
+}
