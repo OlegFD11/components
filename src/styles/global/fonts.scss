@@ -1,13 +1,7 @@
 /*generate fonts*/
 ///
 
-$fontName: ("DMSans-Bold",
-  "DMSans-BoldItalic",
-  "DMSans-Italic",
-  "DMSans-Medium",
-  "DMSans-MediumItalic",
-  "DMSans-Regular"
-);
+
 
 @each $font in $fontName {
   @font-face {

@@ -1,31 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  ${ require('~/blocks/gtm/gtmstart.chunk.html') }
+  ${ require('~/blocks/services/header-services.chunk.html') }
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Webbilder</title>
+  <title>Web-builder</title>
   <link rel="shortcut icon" type="image/png" href='${ require("~/images/favicon.ico") }' />
 </head>
-
 <body>
-
-  <div class="container home">
+  <div class="container">
     <div class="front">
-      ${ require('~/blocks/base/header.chunk.html') }
-      <main class="front-page ">
+      ${ require('~/blocks/header/header.chunk.html') }
+      <main class="content">
         ${ require('~/blocks/home_page/screen.chunk.html') }
       </main>
-      ${ require('~/blocks/base/footer.chunk.html') }
+      ${ require('~/blocks/footer/footer.chunk.html') }
     </div>
   </div>
-  ${ require('~/blocks/gtm/gtmend.chunk.html') }
-
-
-  <script src="http://cdn.sobekrepository.org/includes/gmaps-markerwithlabel/1.9.1/gmaps-markerwithlabel-1.9.1.js"
-    type="text/javascript"></script>
-
+  ${ require('~/blocks/services/footer-services.chunk.html') }
 </body>
-
 </html>

@@ -1,0 +1,9 @@
+@mixin centerContent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transitionBtn {
+  transition: color ease 300ms, background-color ease 300ms;
+}
