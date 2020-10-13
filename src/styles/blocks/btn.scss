@@ -1,0 +1,38 @@
+//  btn
+
+.btn-blue {
+  @include centerContent;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  background-color: blue;
+  cursor: pointer;
+  @include transitionBtn;
+
+  &:hover {
+    background-color: transparent;
+    color: blue;
+    @include transitionBtn;
+  }
+}
+
+.btn-red {
+  @include centerContent;
+  @include transitionBtn;
+  cursor: pointer;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #fff;
+  background-color: red;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    color: red;
+    @include transitionBtn;
+  }
+}
